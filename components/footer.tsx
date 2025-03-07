@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 
 export function Footer() {
     return (
-        <footer className="flex flex-row justify-center items-center flex-nowrap p-3">
+        <footer className="flex flex-row justify-center items-center flex-nowrap p-3 border-t">
             <Link
                 href="/"
                 className={cn(
